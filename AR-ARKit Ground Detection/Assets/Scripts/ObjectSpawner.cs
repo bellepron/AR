@@ -15,7 +15,7 @@ public class ObjectSpawner : MonoBehaviour
 
     }
 
-  /*  void Update()
+    void Update()
     {
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
         {
@@ -24,14 +24,14 @@ public class ObjectSpawner : MonoBehaviour
            
         }
         
-    } */
-
-    public void Activate() {
-
-        GameObject obj = Instantiate(objectToSpawn,
-                placementIndicator.transform.position, placementIndicator.transform.rotation);
-
     }
+
+    // public void Activate() {
+
+    //     GameObject obj = Instantiate(objectToSpawn,
+    //             placementIndicator.transform.position, placementIndicator.transform.rotation);
+
+    // }
     
    
 }
